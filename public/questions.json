@@ -1,0 +1,554 @@
+[
+    {
+        "question": "Who painted the Mona Lisa?",
+        "option1": "Vincent van Gogh",
+        "option2": "Leonardo da Vinci",
+        "option3": "Pablo Picasso",
+        "option4": "Michelangelo",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Which element makes up about 78% of Earth's atmosphere by volume?",
+        "option1": "Oxygen",
+        "option2": "Carbon Dioxide",
+        "option3": "Nitrogen",
+        "option4": "Argon",
+        "video": "/videos/option3.mp4.mp4"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "option1": "Ag",
+        "option2": "Fe",
+        "option3": "Au",
+        "option4": "Cu",
+        "video": "/videos/option3.mp4.mp4"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "option1": "Venus",
+        "option2": "Mars",
+        "option3": "Jupiter",
+        "option4": "Saturn",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "option1": "Heart",
+        "option2": "Brain",
+        "option3": "Liver",
+        "option4": "Skin",
+        "video": "/videos/option4.mp4"
+    },
+    {
+        "question": "Which country is home to the Great Barrier Reef?",
+        "option1": "Brazil",
+        "option2": "Indonesia",
+        "option3": "Australia",
+        "option4": "Thailand",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the capital city of Japan?",
+        "option1": "Seoul",
+        "option2": "Beijing",
+        "option3": "Tokyo",
+        "option4": "Bangkok",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "option1": "Charles Dickens",
+        "option2": "William Shakespeare",
+        "option3": "Jane Austen",
+        "option4": "Mark Twain",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "option1": "Gold",
+        "option2": "Iron",
+        "option3": "Diamond",
+        "option4": "Platinum",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which famous scientist developed the theory of relativity?",
+        "option1": "Isaac Newton",
+        "option2": "Albert Einstein",
+        "option3": "Galileo Galilei",
+        "option4": "Stephen Hawking",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "option1": "0",
+        "option2": "1",
+        "option3": "2",
+        "option4": "3",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which continent is the largest by land area?",
+        "option1": "North America",
+        "option2": "Africa",
+        "option3": "Asia",
+        "option4": "Antarctica",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "option1": "CO2",
+        "option2": "H2O",
+        "option3": "O2",
+        "option4": "N2",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Who was the first person to walk on the Moon?",
+        "option1": "Buzz Aldrin",
+        "option2": "Neil Armstrong",
+        "option3": "Yuri Gagarin",
+        "option4": "John Glenn",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "option1": "Tiger",
+        "option2": "Lion",
+        "option3": "Elephant",
+        "option4": "Gorilla",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "option1": "Saturn",
+        "option2": "Mars",
+        "option3": "Jupiter",
+        "option4": "Neptune",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who painted 'The Last Supper'?",
+        "option1": "Raphael",
+        "option2": "Leonardo da Vinci",
+        "option3": "Michelangelo",
+        "option4": "Botticelli",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the capital of South Africa?",
+        "option1": "Cape Town",
+        "option2": "Johannesburg",
+        "option3": "Pretoria",
+        "option4": "Durban",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which element is a noble gas?",
+        "option1": "Nitrogen",
+        "option2": "Hydrogen",
+        "option3": "Helium",
+        "option4": "Oxygen",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "option1": "John Steinbeck",
+        "option2": "Harper Lee",
+        "option3": "Ernest Hemingway",
+        "option4": "Virginia Woolf",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "option1": "Lion",
+        "option2": "Gazelle",
+        "option3": "Cheetah",
+        "option4": "Leopard",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which mountain is the tallest in the world?",
+        "option1": "K2",
+        "option2": "Mount Kilimanjaro",
+        "option3": "Mount Everest",
+        "option4": "Mount McKinley",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the chemical symbol for potassium?",
+        "option1": "Po",
+        "option2": "K",
+        "option3": "Pt",
+        "option4": "Ka",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Who discovered gravity?",
+        "option1": "Galileo Galilei",
+        "option2": "Isaac Newton",
+        "option3": "Albert Einstein",
+        "option4": "Johannes Kepler",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the largest bird in the world?",
+        "option1": "Emu",
+        "option2": "Ostrich",
+        "option3": "Cassowary",
+        "option4": "Condor",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Which country is known as the Land of Fire and Ice?",
+        "option1": "Norway",
+        "option2": "Finland",
+        "option3": "Iceland",
+        "option4": "Greenland",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the hardest natural mineral?",
+        "option1": "Ruby",
+        "option2": "Sapphire",
+        "option3": "Diamond",
+        "option4": "Topaz",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who is known as the father of computers?",
+        "option1": "Bill Gates",
+        "option2": "Charles Babbage",
+        "option3": "Alan Turing",
+        "option4": "Steve Jobs",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "option1": "Barcelona",
+        "option2": "Valencia",
+        "option3": "Madrid",
+        "option4": "Seville",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which planet is closest to the Sun?",
+        "option1": "Venus",
+        "option2": "Earth",
+        "option3": "Mercury",
+        "option4": "Mars",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the chemical symbol for copper?",
+        "option1": "Co",
+        "option2": "Cu",
+        "option3": "Cp",
+        "option4": "Cr",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Who wrote 'War and Peace'?",
+        "option1": "Fyodor Dostoevsky",
+        "option2": "Leo Tolstoy",
+        "option3": "Anton Chekhov",
+        "option4": "Ivan Turgenev",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "option1": "African Elephant",
+        "option2": "Blue Whale",
+        "option3": "Sperm Whale",
+        "option4": "Humpback Whale",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Which country is home to Mount Fuji?",
+        "option1": "China",
+        "option2": "South Korea",
+        "option3": "Japan",
+        "option4": "Taiwan",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the capital of France?",
+        "option1": "London",
+        "option2": "Berlin",
+        "option3": "Madrid",
+        "option4": "Paris",
+        "video": "/videos/option4.mp4"
+    },
+    {
+        "question": "Which planet is known as the 'Morning Star'?",
+        "option1": "Mars",
+        "option2": "Venus",
+        "option3": "Mercury",
+        "option4": "Jupiter",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the speed of light in a vacuum?",
+        "option1": "299,792 kilometers per second",
+        "option2": "299,792 miles per second",
+        "option3": "186,282 miles per second",
+        "option4": "186,282 kilometers per second",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which element has the atomic number 1?",
+        "option1": "Helium",
+        "option2": "Carbon",
+        "option3": "Hydrogen",
+        "option4": "Oxygen",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "option1": "Sydney",
+        "option2": "Melbourne",
+        "option3": "Canberra",
+        "option4": "Perth",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who wrote '1984'?",
+        "option1": "Aldous Huxley",
+        "option2": "George Orwell",
+        "option3": "Ray Bradbury",
+        "option4": "H.G. Wells",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "option1": "Amazon",
+        "option2": "Nile",
+        "option3": "Yangtze",
+        "option4": "Mississippi",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Which country is home to the Taj Mahal?",
+        "option1": "Pakistan",
+        "option2": "Bangladesh",
+        "option3": "India",
+        "option4": "Nepal",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the chemical symbol for silver?",
+        "option1": "Si",
+        "option2": "Ag",
+        "option3": "Au",
+        "option4": "Fe",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Who discovered penicillin?",
+        "option1": "Louis Pasteur",
+        "option2": "Alexander Fleming",
+        "option3": "Marie Curie",
+        "option4": "Robert Koch",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the smallest planet in our solar system?",
+        "option1": "Mars",
+        "option2": "Venus",
+        "option3": "Mercury",
+        "option4": "Pluto",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "option1": "China",
+        "option2": "South Korea",
+        "option3": "Japan",
+        "option4": "Thailand",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the largest species of big cat?",
+        "option1": "Lion",
+        "option2": "Tiger",
+        "option3": "Jaguar",
+        "option4": "Leopard",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Who developed the theory of evolution by natural selection?",
+        "option1": "Gregor Mendel",
+        "option2": "Charles Darwin",
+        "option3": "Louis Pasteur",
+        "option4": "Alexander Fleming",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "option1": "São Paulo",
+        "option2": "Rio de Janeiro",
+        "option3": "Brasília",
+        "option4": "Salvador",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which element is essential for human bones?",
+        "option1": "Iron",
+        "option2": "Calcium",
+        "option3": "Potassium",
+        "option4": "Sodium",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Who painted the Sistine Chapel ceiling?",
+        "option1": "Leonardo da Vinci",
+        "option2": "Raphael",
+        "option3": "Michelangelo",
+        "option4": "Donatello",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "option1": "Atlantic",
+        "option2": "Indian",
+        "option3": "Pacific",
+        "option4": "Arctic",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which planet is known as the 'Evening Star'?",
+        "option1": "Mars",
+        "option2": "Venus",
+        "option3": "Mercury",
+        "option4": "Jupiter",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the capital of China?",
+        "option1": "Shanghai",
+        "option2": "Hong Kong",
+        "option3": "Beijing",
+        "option4": "Guangzhou",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who invented the telephone?",
+        "option1": "Thomas Edison",
+        "option2": "Alexander Graham Bell",
+        "option3": "Nikola Tesla",
+        "option4": "George Westinghouse",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the chemical symbol for iron?",
+        "option1": "Ir",
+        "option2": "Fe",
+        "option3": "In",
+        "option4": "Au",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "Which country is home to the pyramids of Giza?",
+        "option1": "Sudan",
+        "option2": "Libya",
+        "option3": "Egypt",
+        "option4": "Morocco",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "What is the smallest bone in the human body?",
+        "option1": "Stapes",
+        "option2": "Femur",
+        "option3": "Radius",
+        "option4": "Tibia",
+        "video": "/videos/option1.mp4"
+    },
+    {
+        "question": "Who wrote 'The Great Gatsby'?",
+        "option1": "Ernest Hemingway",
+        "option2": "F. Scott Fitzgerald",
+        "option3": "John Steinbeck",
+        "option4": "William Faulkner",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the capital of Russia?",
+        "option1": "St. Petersburg",
+        "option2": "Kiev",
+        "option3": "Moscow",
+        "option4": "Minsk",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which element is most abundant in the Earth's crust?",
+        "option1": "Silicon",
+        "option2": "Aluminum",
+        "option3": "Oxygen",
+        "option4": "Iron",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who was the first woman to win a Nobel Prize?",
+        "option1": "Mother Teresa",
+        "option2": "Marie Curie",
+        "option3": "Dorothy Hodgkin",
+        "option4": "Barbara McClintock",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the deepest point in the world's oceans?",
+        "option1": "Tonga Trench",
+        "option2": "Puerto Rico Trench",
+        "option3": "Mariana Trench",
+        "option4": "Java Trench",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which is the largest species of shark?",
+        "option1": "Great White Shark",
+        "option2": "Whale Shark",
+        "option3": "Hammerhead Shark",
+        "option4": "Tiger Shark",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "option1": "Toronto",
+        "option2": "Vancouver",
+        "option3": "Ottawa",
+        "option4": "Montreal",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Who invented the light bulb?",
+        "option1": "Nikola Tesla",
+        "option2": "Thomas Edison",
+        "option3": "Alexander Graham Bell",
+        "option4": "Benjamin Franklin",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "option1": "Sahara",
+        "option2": "Arabian",
+        "option3": "Antarctic",
+        "option4": "Gobi",
+        "video": "/videos/option3.mp4"
+    },
+    {
+        "question": "Which planet has the most moons?",
+        "option1": "Saturn",
+        "option2": "Jupiter",
+        "option3": "Uranus",
+        "option4": "Neptune",
+        "video": "/videos/option2.mp4"
+    },
+    {
+        "question": "What is the chemical symbol for sodium?",
+        "option1": "So",
+        "option2": "Na",
+        "option3": "Sa",
+        "option4": "Sn",
+        "video": "/videos/option2.mp4"
+    }
+]
