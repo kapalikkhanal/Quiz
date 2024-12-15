@@ -39,7 +39,7 @@ async function getTiktokCookies(url, application_name) {
     try {
         // Launch the browser in non-headless mode
         const { browser, page } = await connect({
-            headless: false,
+            headless: true,
             turnstile: true, // Optional: helps bypass Cloudflare challenges
 
             // executablePath: '/usr/bin/chromium-browser',
@@ -61,7 +61,7 @@ async function getTiktokCookies(url, application_name) {
         });
 
         console.log("Waiting for 120 seconds...");
-        await new Promise(resolve => setTimeout(resolve, 190000));
+        await new Promise(resolve => setTimeout(resolve, 120000));
 
         await saveSessionData(page, `${application_name}_cookies.json`);
         console.log("Session data saved.");
@@ -73,17 +73,20 @@ async function getTiktokCookies(url, application_name) {
 
 async function PostToTiktok(filePath) {
     try {
-        const browser = await puppeteer.launch({
-            headless: false,
+        const { browser, page } = await connect({
+            headless: true,
+            turnstile: true, // Optional: helps bypass Cloudflare challenges
+
             // executablePath: '/usr/bin/chromium-browser',
             args: [
                 '--start-maximized',
                 '--no-sandbox',
-                '--disable-setuid-sandbox'
-            ]
+                '--disable-setuid-sandbox',
+                '--disable-blink-features=AutomationControlled',
+            ],
+            fingerprint: true, // Optional: generates a more realistic browser fingerprint
+            userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
         });
-
-        const page = await browser.newPage();
 
         await page.goto('https://tiktok.com/login', {
             waitUntil: 'networkidle2'
@@ -169,7 +172,7 @@ async function PostToTiktok(filePath) {
 
         await new Promise(resolve => setTimeout(resolve, 500));
 
-        const caption = `Follow for more challenges like these. \n #Quiz #Brain #Challenges #Trainyourbrain #options #fyp`;
+        const caption = `Follow for more challenges like these. \n \n#quiz #riddles #challenges #brain #train`;
 
         // Type message with human-like delays
         await page.evaluate((text) => navigator.clipboard.writeText(text), caption);

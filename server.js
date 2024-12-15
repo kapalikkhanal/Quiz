@@ -10,51 +10,9 @@ const { PostToTiktok, getTiktokCookies } = require('./modules/tiktok/tiktok');
 const { postToInstagram, getInstagramCookies } = require('./modules/instagram/instagram');
 
 const app = express();
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3002;
 
 let currentQuestionIndex = 0;
-
-// Paraphrase content
-const askGemini = async (content) => {
-    try {
-        const currentDate = new Date().toISOString();
-        const prompt = `Create a completely new, original, and heartfelt love quote (maximum 30 words) that has never been written before. 
-        
-Requirements:
-- Must be unique and not similar to existing quotes
-- Express deep emotion but stay concise
-- Can be about any aspect of love (romantic, lasting love, first sight, etc.)
-- No famous references or clichés
-- No quotation marks
-- Consider ${currentDate} as inspiration for seasonal/temporal context
-
-Here are some examples for tone and style (but DO NOT copy or closely paraphrase these):
-- To the world you may be one person, but to one person you are the world.
-- I need you like a heart needs a beat.
-- If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.
-
-Remember: Generate something completely new and different from these examples. Be creative and original.`;
-
-        const response = await axios.post('https://gemini-uts6.onrender.com/api/askgemini', {
-            text: prompt
-        });
-
-        // Clean up the response
-        let quote = response.data.response;
-        quote = quote.replace(/["'"]/g, ''); // Remove any quotes
-        quote = quote.trim();
-
-        // Validate the response
-        if (quote.split(' ').length > 30) {
-            quote = quote.split(' ').slice(0, 30).join(' ') + '...';
-        }
-
-        return quote;
-    } catch (error) {
-        console.error('Quote generation error:', error.message);
-        return null;
-    }
-};
 
 const getNextQuestion = async () => {
     try {
@@ -117,6 +75,16 @@ app.get('/current-index', (req, res) => {
     res.json({
         currentIndex: currentQuestionIndex
     });
+});
+
+app.get('/health-check', async (req, res) => {
+    try {
+        res.json({ message: 'Server is working fine.' });
+    } catch (error) {
+        res.status(500).json({
+            message: 'Server failed'
+        });
+    }
 });
 
 cron.schedule('*/59 * * * *', postQuotes);
