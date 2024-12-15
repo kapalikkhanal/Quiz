@@ -52,6 +52,8 @@ const postQuotes = async () => {
         console.log("Path", videoPath);
         await PostToTiktok(videoPath);
         // await postToInstagram("./output/66b23a91dc9c.mp4");
+
+        await fs.unlink(videoPath);
         console.log('Posted Sucessfully.');
     } catch (error) {
         console.error('Error rendering video:', error.message);
